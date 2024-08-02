@@ -8,7 +8,7 @@ table = { "H" => "Кавендиш",
           "O" => "Пристли и Шееле",
           "F" => "Муассан",
           "Ne" => "Рамзай и Траверс" }
-puts "у нас всего элементов: #{table.keys.size}"
+puts "у нас всего элементов=> #{table.keys.size}"
 puts table.keys
 puts "о каком вы хотели бы узнать"
 user = STDIN.gets.chomp
